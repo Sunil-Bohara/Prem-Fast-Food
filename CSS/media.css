@@ -1,0 +1,177 @@
+/* Style for responsiveness */
+
+@media screen and (max-width: 640px){
+    .navbar {
+        height: 8vh;
+        justify-content: center;
+    }
+    
+    .navbar .logo {
+        margin-left: 0rem;
+    }
+    .navbar .logo a {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .navbar .list-items{
+        display: none;
+    }
+
+    /* Style for about section of the page */
+    .pff-brief {
+        height: 45vh;
+    }
+    
+    .pff-brief-para {
+        width: 94vw;
+        height: 40vh;
+        opacity: 0.9;
+        line-height: 1.2;
+        box-shadow: 3px 3px 10px black;
+    }
+    
+    .pff-brief-para .h1 {
+        width: 90vw;
+        margin-left: 0rem;
+        font-weight: bold;
+        font-size: 1.7rem;
+        text-shadow: 5px 5px 20px #ff0;
+        display: flex;
+        justify-content: center;
+    }
+    .pff-brief-para p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    /* style for Prem KC */
+    .pff-prem-kc-box {
+        height: 47vh;
+        background-image: linear-gradient(#fcbf49, #adb5bd);
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pff-prem-kc {
+        width: 90vw;
+    }
+    
+    .pff-prem-kc .name-photo {
+        margin-left: 0rem;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .pff-prem-kc img {
+        height: 100px;
+        width: 100px;
+        box-shadow: 5px 5px 20px #000;
+    }
+    
+    .pff-prem-kc p {
+        width: 90vw;
+        line-height: 1;
+        margin-left: 0rem;
+    }
+
+    /* Style for the Menu section of the page */
+
+    .menu-headline {
+        width: 53vw;
+    }
+    .menu-headline p{
+        opacity: 0.7;
+    }
+    
+    .menu-table {
+        width: 90vw;
+        padding-left: 4em;
+    }
+    .menu-table .menu-table-food-pic {
+        width: 100px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    /* Style for review section of the page */
+
+    .reviews {
+        background-image: linear-gradient(#fcbf49, #adb5bd);
+    }
+    
+    .reviews h2 {
+        width: 23vw;
+    }
+    
+    .reviews .review-box {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+        padding-inline: 1.5rem;
+    } 
+    .review-box .review-box-userInfo img {
+        width: 60px;
+        height: 60px;
+        margin-inline-start: 1.3rem;
+    }
+    .review-box .review-box-userInfo h2 {
+        font-size: 1rem;
+    }
+    .review-box .review-box-para {
+        font-size: 1.1rem;
+    }
+
+    /* Style for Contact section of the page */
+    .contact {
+        height: 102vh;
+        background-image: linear-gradient(#adb5bd, #fcbf49);
+        padding-top: 5rem;
+    }
+    
+    .contact-us-headline {
+        width: 28vw;
+    }
+    
+    .contact .our-contacts {
+        width: 80vw;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    
+    /* Style for the store hours and location section of the page. */
+    .pff-store-hours {
+        margin-top: 50px;
+        margin-inline-start: 6rem;
+        line-height: 1.2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .store-hours h2,
+    .store-location h2 {
+        margin-bottom: 20px;
+        border-left: 4px solid black;
+        padding-left: 12px;
+        width: 270px;
+    }
+    .store-hours .span-of-store-hours {
+        display: none;
+    }
+    .store-hours .dd{
+        margin-inline-start: 40px;
+    }
+
+    /* Style for footer of the page */
+    footer {
+        height: 6vh;
+    }
+    
+    footer p {
+        font-size: 1rem;
+    }
+}
