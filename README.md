@@ -3,6 +3,4 @@ In this project I am going to create a static website for a fast food store name
 
 All the images that are being used in this project are in Image folder.
 
-All the CSS style files are presented in CSS folder.
-
 This website is responsive. (For max-width of 640px only).
